@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom.css" />
 	</head>
 	<body class="is-preload homepage">
 		<div id="page-wrapper">
@@ -128,7 +129,8 @@
 								<div class="col-4 col-12-medium">
 									<!-- Box -->
 										<section class="box feature">
-											<a href="https://apps.apple.com/us/app/%EA%B9%8C%EB%AF%B8-kkami/id6444804956" class="image featured"><img src="images/image1.png" alt="" /></a>
+											<!-- <a href="https://apps.apple.com/us/app/%EA%B9%8C%EB%AF%B8-kkami/id6444804956" class="image featured"><img src="images/image1.png" alt="" /></a> -->
+											<a href="javascript:popup_active(1)" class="image featured"><img src="images/image1.png" alt="" /></a>
 											<div class="inner">
 												<header>
 													<h2>숭실대학교 창업팀 까미</h2>
@@ -561,6 +563,13 @@
 
 			</div>
 
+			<div class="custom-popup" id="popup-1">
+				<div class="popup">
+
+				</div>
+
+			</div>
+
 		<!-- Scripts -->
 
 			<script src="assets/js/jquery.min.js"></script>
@@ -580,6 +589,10 @@
 				$('.tab').on('click',function () {
 					tab_active($(this).data('index'));
 				})
+				function popup_active(index){
+					$(".custom-popup").hide();
+					$("#popup-"+index).show();
+				};
 			</script>
 
 
