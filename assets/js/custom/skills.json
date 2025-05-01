@@ -1,0 +1,114 @@
+{
+  "skills": [
+    {
+      "skill_category": "Front Skill Stack",
+      "items": [
+        {
+          "name": "JavaScript",
+          "image": "images/javascript.png",
+          "description": "JavaScript는 웹 개발에서 필수적인 프로그래밍 언어입니다. 비동기 작업과 이벤트 기반 프로그래밍에 강점을 지니고 있습니다."
+        },
+        {
+          "name": "React",
+          "image": "images/react.png",
+          "description": "React는 UI 구성에 특화된 라이브러리로, 재사용 가능한 컴포넌트 기반 구조를 제공합니다."
+        },
+        {
+          "name": "Redux",
+          "image": "images/redux.png",
+          "description": "Redux는 애플리케이션의 상태를 관리하는 라이브러리로, 상태의 예측 가능성을 높여줍니다."
+        },
+        {
+          "name": "TypeScript",
+          "image": "images/typescript.png",
+          "description": "TypeScript는 JavaScript에 타입을 추가한 언어로, 컴파일 타임에서 오류를 잡을 수 있어 안정성이 높습니다."
+        },
+        {
+          "name": "React Query",
+          "image": "images/reactQuery.png",
+          "description": "React Query는 서버 상태 관리와 데이터 fetching, 캐싱 등을 쉽게 처리할 수 있게 도와주는 라이브러리입니다."
+        }
+      ]
+    },
+    {
+      "skill_category": "Mobile Skill Stack",
+      "items": [
+        {
+          "name": "React Native",
+          "image": "images/reactnative.png",
+          "description": "React Native는 React를 기반으로 모바일 앱을 개발할 수 있는 프레임워크로, iOS와 Android 앱을 모두 개발할 수 있습니다."
+        },
+        {
+          "name": "Swift",
+          "image": "images/swift.png",
+          "description": "Swift는 iOS 애플리케이션을 개발하는 데 사용되는 Apple의 프로그래밍 언어로, 성능과 안정성이 뛰어납니다."
+        },
+        {
+          "name": "Flutter",
+          "image": "images/flutter.png",
+          "description": "Flutter는 구글이 만든 UI 툴킷으로, 한 번의 코드 작성으로 iOS와 Android 앱을 모두 만들 수 있습니다."
+        },
+        {
+          "name": "TestFlight",
+          "image": "images/testflight.png",
+          "description": "TestFlight는 iOS 앱을 베타 테스트할 수 있도록 도와주는 Apple의 서비스로, 앱을 외부 테스터에게 배포할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "skill_category": "BackEnd Skill Stack",
+      "items": [
+        {
+          "name": "Java",
+          "image": "images/java.png",
+          "description": "Java는 안정성과 보안성이 중요한 대규모 시스템에서 많이 사용되는 언어입니다."
+        },
+        {
+          "name": "Java JSP",
+          "image": "images/java_jsp.jpeg",
+          "description": "Java JSP는 동적인 웹 페이지를 만들 수 있게 도와주는 기술로, 서버에서 HTML을 동적으로 생성합니다."
+        },
+        {
+          "name": "Node.js",
+          "image": "images/nodejs.png",
+          "description": "Node.js는 서버 측 자바스크립트를 실행할 수 있게 해주는 런타임 환경입니다. 빠른 성능과 확장성 덕분에 많이 사용됩니다."
+        },
+        {
+          "name": "MySQL",
+          "image": "images/mysql.png",
+          "description": "MySQL은 관계형 데이터베이스 관리 시스템으로, SQL 언어를 사용하여 데이터를 효율적으로 관리할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "skill_category": "Server Skill Stack",
+      "items": [
+        {
+          "name": "NGINX",
+          "image": "images/nginx.jpeg",
+          "description": "NGINX는 웹 서버 및 리버스 프록시 서버로, 빠른 성능과 적은 자원 소모로 많이 사용됩니다."
+        },
+        {
+          "name": "AWS Lambda",
+          "image": "images/lambda.png",
+          "description": "AWS Lambda는 서버리스 컴퓨팅 서비스를 제공하여, 코드 실행을 위해 서버를 관리할 필요가 없습니다."
+        },
+        {
+          "name": "Jenkins",
+          "image": "images/jenkins.png",
+          "description": "Jenkins는 지속적인 통합(CI) 및 지속적인 배포(CD)를 자동화해주는 오픈소스 도구입니다."
+        },
+        {
+          "name": "S3",
+          "image": "images/s3.png",
+          "description": "Amazon S3는 확장 가능하고 안전한 클라우드 스토리지 서비스로, 대용량 데이터를 저장하고 관리할 수 있습니다."
+        },
+        {
+          "name": "CloudFront",
+          "image": "images/cloudfront.jpeg",
+          "description": "CloudFront는 AWS의 콘텐츠 배포 네트워크(CDN)로, 빠르고 안전하게 웹 콘텐츠를 전 세계로 배포할 수 있습니다."
+        }
+      ]
+    }
+  ]
+}

@@ -2702,9 +2702,11 @@ input, select, textarea {
 		display: flex;
 		background: white;
 		justify-content: space-around;
+		align-items: center;
+		height: 300px;
 	}
 	.feature .image img{
-		height: 300px;
+		height: auto;
 	}
 	.feature .image-half img{
 		width: auto;
@@ -2744,6 +2746,7 @@ input, select, textarea {
 		margin-bottom: 15px;
 		position: relative;
 		z-index: 10;
+    	flex-wrap: wrap;
 	}
 	.tab{
 		background: lightgray;
