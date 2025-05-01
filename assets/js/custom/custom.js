@@ -1,6 +1,6 @@
 
 // JS 파일에 아래 스크립트 추가
-fetch("/assets/js/custom/skills.json")
+fetch("assets/js/custom/skills.json")
   .then((response) => response.json())
   .then((data) => {
     const container = document.getElementById("skills-container");
@@ -66,7 +66,7 @@ fetch("/assets/js/custom/skills.json")
 let tabContents;
 
 // fetch("project.json")
-fetch("/assets/js/custom/project.json")
+fetch("assets/js/custom/project.json")
   .then((response) => response.json())
   .then((data) => {
     // 초기화 및 첫 번째 탭의 프로젝트 표시
